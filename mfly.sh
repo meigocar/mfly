@@ -38,5 +38,7 @@ cat <<EOF >./config.json
     ]
 }
 EOF
-
+echo "install mfly done, begin download ngrok"
+wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
+tar -xzvf ngrok-v3-stable-linux-amd64.tgz
 echo "Install done"
