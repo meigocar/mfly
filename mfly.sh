@@ -44,6 +44,6 @@ cd ..
 wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
 tar -xzvf ngrok-v3-stable-linux-amd64.tgz
 echo "Install done"
-sh ./ngrok config add-authtoken 28yujkS0AbUtkyQwg2CX8fUCq6N_5A8Eeonau3GaR3Vv3KXCq
+./ngrok config add-authtoken 28yujkS0AbUtkyQwg2CX8fUCq6N_5A8Eeonau3GaR3Vv3KXCq
 echo "init ngrok envirent"
 
