@@ -51,6 +51,7 @@ current=`pwd`
 export PATH=$PATH:$current/
 chmod +x start.sh
 chmod +x mfly.sh
+chmod +x cloudflared
 
 echo "init ngrok envirent"
 
