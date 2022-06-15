@@ -7,6 +7,6 @@ nohup ./v2ray &
 echo "started mfly"
 
 cd ..
-nohup ./ngrok http 8080 &
+nohup ./ngrok http 8088 &
 
 echo "started ngrok"
