@@ -1,7 +1,7 @@
 #!/bin/sh
 set -x
 v2ray=~/v2ray
-if [ -d $v2ray ];then
+if [ ! -d $v2ray ];then
     echo 需要重新初始化环境，进行中...
     wget https://raw.githubusercontent.com/meigocar/mfly/main/azure/init.sh
     chmod +x init.sh && ./init.sh
