@@ -1,5 +1,4 @@
 #!/bin/sh
-set -x
 v2ray=~/v2ray
 if [ ! -d $v2ray ];then
     echo 需要重新初始化环境，进行中...
@@ -15,7 +14,7 @@ if [ "$v2ray_id" = "" ]; then
 fi
 
 cloudflared_id=$(ps -ef | grep cloudflared | grep -v grep | awk '{print $2}')
-if [ "$cloudflared" = "" ]; then
+if [ "$cloudflared_id" = "" ]; then
     nohup ./cloudflared --no-autoupdate tunnel run --token eyJhIjoiNmQxZjBjZDJiODhhMzQzOWYyOGY3ODI1OGYxNzg5NjAiLCJ0IjoiYjZlNmE2NjItOWYyMS00MGQwLWJiZWEtZDMzNDViYzE3MmY5IiwicyI6IjlKOS9FK250OGxKQ05HU0ZGRWFXMTk5bjFxdVRXMmlOc0JkR3NLQ1hUbGM9In0= &
 fi
 

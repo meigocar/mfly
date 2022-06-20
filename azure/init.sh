@@ -1,5 +1,4 @@
 #!/bin/sh
-set -x
 
 cd ~/
 mkdir v2ray
