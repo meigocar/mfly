@@ -3,7 +3,7 @@
 cd ~/
 mkdir v2ray
 cd v2ray
-wget https://github.com/v2fly/v2ray-core/releases/download/v4.45.0/v2ray-linux-64.zip
+curl -L --output v2ray-linux-64.zip https://github.com/v2fly/v2ray-core/releases/download/v4.45.0/v2ray-linux-64.zip
 echo "Downloaded binary v2ray-linux-64.zip"
 unzip v2ray-linux-64.zip
 # Set config file
