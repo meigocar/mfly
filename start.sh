@@ -13,7 +13,7 @@ read -p "请选择：" c
 if [ $c -eq 1 ]
   echo TODO
 then
-	nohup ./ngrok http 8088 &  
+  nohup ./ngrok http 8088 &  
   echo "started ngrok"
 fi
 
