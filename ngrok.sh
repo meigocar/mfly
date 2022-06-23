@@ -49,7 +49,7 @@ tar -xzvf ngrok-v3-stable-linux-amd64.tgz
 echo "Install done"
 ./ngrok config add-authtoken 28yujkS0AbUtkyQwg2CX8fUCq6N_5A8Eeonau3GaR3Vv3KXCq
 
-nohup ./ngrok http 8088
+nohup ./ngrok http 8088 &
 
 echo "start ngrok"
 
