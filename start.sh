@@ -9,6 +9,8 @@ else
     echo 环境存在。
 fi
 
+ls -l
+
 v2ray_id=$(ps -ef | grep v2ray | grep -v grep | awk '{print $2}')
 if [ "$v2ray_id" = "" ]; then
     nohup v2ray/v2ray  > /dev/null &
