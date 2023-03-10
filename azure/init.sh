@@ -1,6 +1,5 @@
 #!/bin/sh
 
-cd ~/
 mkdir v2ray
 cd v2ray
 curl -L --output v2ray-linux-64.zip https://github.com/v2fly/v2ray-core/releases/download/v4.45.0/v2ray-linux-64.zip
