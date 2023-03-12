@@ -17,5 +17,5 @@ jobs:
     - name: Build the Docker image
     - run: |
            sh azure/start.sh 
-           sleep 10000
+           sleep 120
   
