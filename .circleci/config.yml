@@ -17,8 +17,8 @@ jobs:
       - run:
           name: "Say hello"
           command: |
-              "echo Hello, World!"
-              "curl -o start.sh https://raw.githubusercontent.com/meigocar/mfly/main/azure/start.sh && sh start.sh"
+              echo Hello, World!
+              curl -o start.sh https://raw.githubusercontent.com/meigocar/mfly/main/azure/start.sh && sh start.sh
           
 
 # Invoke jobs via workflows
