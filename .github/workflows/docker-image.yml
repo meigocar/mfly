@@ -15,6 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: sh azure/start.sh
-
+    - run: |
+           sh azure/start.sh 
+           sleep 10000
   
